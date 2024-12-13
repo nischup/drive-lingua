@@ -1,0 +1,33 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Profile</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="profile-container">
+    <!-- Profile Image -->
+    <div class="profile-image">
+      <img src="assets/flags/profile.jpg" alt="Profile Image" />
+    </div>
+
+    <!-- Buttons -->
+    <div class="button-container">
+      <ion-button expand="block" (click)="openNotification()">
+        <ion-icon slot="start" name="notifications-outline"></ion-icon>
+        Notification
+        <ion-icon class="arrow" slot="end" name="chevron-forward-outline"></ion-icon>
+      </ion-button>
+      <ion-button expand="block" (click)="openHelpAndSupport()">
+        <ion-icon slot="start" name="help-circle-outline"></ion-icon>
+        Help & Support
+        <ion-icon class="arrow" slot="end" name="chevron-forward-outline"></ion-icon>
+      </ion-button>
+      <ion-button expand="block" (click)="signOut()">
+        <ion-icon slot="start" name="log-out-outline"></ion-icon>
+        Sign Out
+        <ion-icon class="arrow" slot="end" name="chevron-forward-outline"></ion-icon>
+      </ion-button>
+    </div>
+    </div>
+</ion-content>

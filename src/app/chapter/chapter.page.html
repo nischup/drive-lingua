@@ -1,0 +1,67 @@
+<ion-toolbar class="black-toolbar">
+  <ion-buttons slot="start">
+    <ion-back-button class="white-icons" defaultHref="/tabs/tab1"></ion-back-button>
+  </ion-buttons>
+  Chapter   
+</ion-toolbar>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card (click)="clickToIntroduction()">
+          <ion-card-content>
+            <div class="img-wrapper">
+              <img src="assets/img/introduction.PNG" alt="Chapter" />
+            </div>
+            <ion-card-title>
+              Introduction 
+              <ion-icon class="white-icons" name="chevron-forward-outline"></ion-icon>
+            </ion-card-title>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card (click)="clickToVocabulary()">
+          <ion-card-content>
+            <div class="img-wrapper">
+              <img src="assets/img/vocabulary.PNG" alt="test" />
+            </div>
+            <ion-card-title>
+              Vocabulary 
+              <ion-icon class="white-icons" name="chevron-forward-outline"></ion-icon>
+            </ion-card-title>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card (click)="clickToSentence()">
+          <ion-card-content>
+            <div class="img-wrapper">
+              <img src="assets/img/sentence.PNG" alt="Chapter" />
+            </div>
+            <ion-card-title >
+              Sentences 
+              <ion-icon class="white-icons" name="chevron-forward-outline"></ion-icon>
+            </ion-card-title>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card (click)="clickToVideo()">
+          <ion-card-content>
+            <div class="img-wrapper">
+              <img src="assets/img/videos.PNG" alt="test" />
+            </div>
+            <ion-card-title>
+              Videos 
+              <ion-icon class="white-icons" name="chevron-forward-outline"></ion-icon>
+            </ion-card-title>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

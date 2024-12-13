@@ -1,0 +1,49 @@
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+    <ion-title> Register to Drive Lingua </ion-title>
+    <p>Enter your details below to register to Drive Lingua app, double check your details before continuing.</p>
+
+    <ion-item class="custom-input">
+      <ion-icon name="person-outline" slot="start"></ion-icon>
+      <ion-input placeholder="Username"></ion-input>
+    </ion-item>
+
+    <ion-item class="custom-input">
+      <ion-icon name="mail-outline" slot="start"></ion-icon>
+      <ion-input placeholder="Email"></ion-input>
+    </ion-item>
+    
+    <ion-item class="custom-input">
+      <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+      <ion-input placeholder="Password" type="password"></ion-input>
+    </ion-item>
+
+  <div class="text-white">Forgot Password ?</div>
+
+    <ion-button class="btn-login" expand="full" shape="round">Sign Up</ion-button>
+  
+    <p>
+      ALready have an account ? <span class="text"  [routerLink]="['/login']">Sign In</span>
+    </p>
+
+    <div class="social-sign">
+      <div class="ortext">
+        <div class="line"></div>
+        <span>Or</span>
+        <div class="line"></div>
+      </div>
+      <ion-button class="login" shape="round" expand="full" [routerLink]="['/home-blank']">
+        <img class="googlesignimg" src="assets/svg/googleicon.svg"> <span class="signtext">Continue with Google</span>
+      </ion-button>
+      <ion-button class="login" shape="round" expand="full" [routerLink]="['/home-blank']">
+        <img class="googlesignimg" src="assets/svg/googleicon.svg"> <span class="signtext">Continue with Facebook</span>
+      </ion-button>
+      <ion-button class="login" shape="round" expand="full" [routerLink]="['/home-blank']">
+        <img class="googlesignimg" src="assets/svg/appleicon.svg"> <span class="signtext">Continue with Apple</span>
+      </ion-button>
+    </div>
+    
+
+
+</ion-content>

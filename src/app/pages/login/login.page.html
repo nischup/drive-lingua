@@ -1,0 +1,44 @@
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <ion-card class="ion-padding">
+    <ion-title> Login </ion-title>
+
+    <ion-item class="custom-input">
+      <ion-icon name="mail-outline" slot="start"></ion-icon>
+      <ion-input placeholder="Email"></ion-input>
+    </ion-item>
+    
+    <ion-item class="custom-input">
+      <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+      <ion-input placeholder="Password" type="password"></ion-input>
+    </ion-item>
+    
+
+    <div class="forgot-text">Forgot Password ? </div>
+
+    <ion-button expand="full" class="btn-login" shape="round" (click)="navigateToTabs()">Sign In</ion-button>
+    <p>
+      Don't have an account ? <span class="text"  [routerLink]="['/register']">Signup</span>
+    </p>
+
+    <div class="social-sign">
+      <div class="ortext">
+        <div class="line"></div>
+        <span>Or</span>
+        <div class="line"></div>
+      </div>
+    <ion-button class="login" shape="round" expand="full" [routerLink]="['/home-blank']"> 
+      <img class="googlesignimg" src="assets/svg/googleicon.svg"> <span class="signtext"> Continue with Google </span>  
+    </ion-button>
+    <ion-button class="login" shape="round" expand="full" [routerLink]="['/home-blank']"> 
+      <img class="googlesignimg" src="assets/svg/googleicon.svg"> <span class="signtext"> Continue with Facebook </span>  
+    </ion-button>
+    <ion-button class="login" shape="round" expand="full" [routerLink]="['/home-blank']"> 
+      <img class="googlesignimg" src="assets/svg/appleicon.svg"> <span class="signtext"> Continue with Apple </span>  
+    </ion-button>
+  
+  </div>
+  </ion-card>
+
+</ion-content>

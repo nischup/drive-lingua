@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+ion-content {
+    --background: #F6C7C9 !important;
+}
+p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    color: #100c0cb2;
+    padding: 0px 5px 0px 5px;
+}
+ion-card{
+  justify-content: center; 
+  margin-top: 50px; 
+ border-radius: 20px;
+}
+ion-title {
+  font-family: 'Helvetica', sans-serif; // Custom font
+  font-size: 24px; // Font size
+  font-weight: 700; // Bold text
+  color: #100e0eb2; // Text color
+  margin-top: 20px; // Spacing from the top
+}
+
+.btn-custom-color {
+    // height: 45px;
+    --background: #EF7D82; /* Custom background color */
+    --color: #fff; /* Text color */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    justify-content: center; 
+    text-transform: none;
+    --border-radius: 50px; /* Ensures the button remains round */
+    padding: 10px;
+  }
+
+  
+ion-searchbar {
+    margin: 10px 0;
+    --background: #f4f4f4;
+    --border-radius: 10px;
+  }
+
+  .flag-icon {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+    border-radius: 2px;
+  }
+  ion-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+
