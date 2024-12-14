@@ -61,4 +61,16 @@ ion-card{
     color: #1b1717; /* White text */
   }
   
-  
+  .audio-player {
+  width: 100%; /* Adjust width as needed */
+  margin: auto;
+}
+
+.button-group ion-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px; /* Space between icon/text and the audio player */
+}
+
