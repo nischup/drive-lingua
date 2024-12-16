@@ -16,7 +16,7 @@ export class Tab1Page {
   }
 
   clickToTest(){
-    this.router.navigate(['/chapter']);
+    this.router.navigate(['/tabs/tab3']);
   }
 
 }
